@@ -1,5 +1,6 @@
 package com.wyw.controller;
 
+<<<<<<< HEAD
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,4 +18,11 @@ public class SourceTreeTestController {
         return "Hello SourceTree !";
     }
 
+=======
+/**
+ * @author wyw
+ * @date 2018\3\9 0009 16:27
+ */
+public class SourceTreeTestController {
+>>>>>>> Bob-dev
 }
