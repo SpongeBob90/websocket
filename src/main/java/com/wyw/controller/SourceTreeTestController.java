@@ -13,8 +13,14 @@ public class SourceTreeTestController {
 
     @GetMapping(value = "/st")
     @ResponseBody
-    public String hello(){
+    public String hello() {
         return "Hello SourceTree !";
+    }
+
+    @GetMapping(value = "/st1")
+    @ResponseBody
+    public String hello1(){
+        return "Hello SourceTree1 !";
     }
 
 }
